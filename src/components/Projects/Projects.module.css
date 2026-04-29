@@ -114,14 +114,14 @@
 .projectId {
   font-family: var(--font-mono);
   font-size: 9px;
-  color: var(--text-muted);
-  opacity: 0.4;
+  color: var(--accent-color);
+  opacity: 1;
 }
 
 .projectYear {
   font-family: var(--font-mono);
   font-size: 10px;
-  color: var(--text-muted);
+  color: var(--accent-color);
 }
 
 .projectTitle {
