@@ -63,6 +63,19 @@ export const PROJECTS_DATA: Project[] = [
     link: 'https://client-plum-ten.vercel.app'
   },
   {
+    id: 'love1',
+    displayId: '006',
+    title: 'LOVE PREDICT',
+    description: 'Fun ML project for learning! Predicts relationship compatibility (for educational purposes only 😅)',
+    problem: 'Curious about ML and relationship dynamics.',
+    solution: 'Lighthearted ML classifier analyzing behavioral features between two individuals.',
+    impact: 'Purely for fun and learning — take results with a grain of salt!',
+    tech: ['Python', 'Scikit-learn', 'Jupyter'],
+    year: '2026',
+    repo: 'https://github.com/deepanmpc/LOVE_PREDICT_ML_MODEL',
+    link: 'https://deepanmpc.github.io/LOVE_PREDICT_ML_MODEL/'
+  },
+  {
     id: 'career',
     displayId: 'OSS-01',
     title: 'career-ops',
@@ -85,19 +98,6 @@ export const PROJECTS_DATA: Project[] = [
     tech: ['Python', 'MCP', 'LinkedIn API'],
     year: '2026',
     repo: 'https://github.com/deepanmpc/mcp-linkedin'
-  },
-  {
-    id: 'love1',
-    displayId: 'OSS-03',
-    title: 'LOVE PREDICT',
-    description: 'Fun ML project for learning! Predicts relationship compatibility (for educational purposes only 😅)',
-    problem: 'Curious about ML and relationship dynamics.',
-    solution: 'Lighthearted ML classifier analyzing behavioral features between two individuals.',
-    impact: 'Purely for fun and learning — take results with a grain of salt!',
-    tech: ['Python', 'Scikit-learn', 'Jupyter'],
-    year: '2026',
-    repo: 'https://github.com/deepanmpc/LOVE_PREDICT_ML_MODEL',
-    link: 'https://deepanmpc.github.io/LOVE_PREDICT_ML_MODEL/'
   }
 ];
 export const findProject = (query: string): Project | undefined => {
