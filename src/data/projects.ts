@@ -23,7 +23,7 @@ export const PROJECTS_DATA: Project[] = [
     solution: 'MCP server bridging Zomato ecosystem with AI CLIs like Gemini and Claude Code.',
     impact: 'Order food without leaving the terminal, maintaining maximum productivity.',
     tech: ['MCP', 'Zomato API', 'TypeScript', 'Node.js'],
-    year: '2025',
+    year: '2026',
     repo: 'https://github.com/deepanmpc/FoodForDevs',
     link: 'https://deepanmpc.github.io/FoodForDevs/'
   },
@@ -36,7 +36,7 @@ export const PROJECTS_DATA: Project[] = [
     solution: 'Offline-capable AI system with speech pipelines, RAG memory, FSM-driven responses, and emotion modeling.',
     impact: 'Extends therapeutic reach with consistent, gentle, adaptive engagement that improves daily functioning and wellbeing.',
     tech: ['FastAPI', 'Docker', 'Faster-Whisper', 'RAG', 'Microservices'],
-    year: '2026',
+    year: '2025 — Present',
     repo: 'https://github.com/deepanmpc/LaRa'
   },
   {
@@ -48,7 +48,7 @@ export const PROJECTS_DATA: Project[] = [
     solution: 'Semantic matching with sentence embeddings and vector search.',
     impact: '50% reduction in recruiter screening time.',
     tech: ['Sentence Transformers', 'ChromaDB', 'Mistral', 'React'],
-    year: '2026',
+    year: '2024',
     repo: 'https://github.com/deepanmpc/ResumeAnalyse_RAG-Architecture'
   },
   {
@@ -60,7 +60,7 @@ export const PROJECTS_DATA: Project[] = [
     solution: 'Optimized CNN models for edge devices achieving real-time inference.',
     impact: '45 FPS on edge devices, helping real-time communication.',
     tech: ['PyTorch', 'CNN', 'OpenCV', 'NVIDIA GPUs'],
-    year: '2024',
+    year: '2025',
     repo: 'https://github.com/deepanmpc/ISL_SIGNLANG_CNN'
   },
   {
@@ -84,7 +84,7 @@ export const PROJECTS_DATA: Project[] = [
     solution: 'Lighthearted ML classifier analyzing behavioral features between two individuals.',
     impact: 'Purely for fun and learning — take results with a grain of salt!',
     tech: ['Python', 'Scikit-learn', 'Jupyter'],
-    year: '2026',
+    year: '2025',
     repo: 'https://github.com/deepanmpc/LOVE_PREDICT_ML_MODEL',
     link: 'https://deepanmpc.github.io/LOVE_PREDICT_ML_MODEL/'
   },
