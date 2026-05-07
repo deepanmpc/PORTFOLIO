@@ -223,7 +223,8 @@ export const ACHIEVEMENTS: Achievement[] = [
   { id: 'ach1', text: '3rd Place — RAMPAGE V26 National Hackathon (KLH)' },
   { id: 'ach2', text: 'Presented in prefinal round for NeuroDott to IEEE members' },
   { id: 'ach3', text: '3D Apparel Customizer delivered to local shirt manufacturer — increased sales by 8-10%' },
-  { id: 'ach4', text: 'Search Wizard: 10 forks, multiple downloads across macOS, Windows, Linux' }
+  { id: 'ach4', text: 'Search Wizard: 10 stars, 10 forks, multiple downloads across macOS, Windows, Linux' },
+  { id: 'ach5', text: 'Active GitHub Contributor: 688+ contributions in the last year' }
 ];
 
 export const CONTACT: ContactInfo = {

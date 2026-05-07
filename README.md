@@ -22,11 +22,11 @@ Pre-final year **CS + AI** engineer building **Anaavi** — a low-cost AI therap
 ### **📊 Key Metrics**
 | Metric | Value |
 | :--- | :--- |
-| **CGPA** | 9.15 |
-| **RAMPAGE V26** | 3rd Place |
-| **Search Wizard** | 10+ Forks |
+| **Yearly Contribs** | 688+ |
+| **Search Wizard** | 10★ · 10 Forks |
 | **ISL Accuracy** | 99.8% |
 | **Resume Speed** | 50%↑ |
+| **CGPA** | 9.15 |
 
 ---
 
