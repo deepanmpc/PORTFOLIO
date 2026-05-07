@@ -10,7 +10,7 @@ export const PROJECTS_DATA: Project[] = [
     solution: 'FAISS-indexed embeddings with Gemini for multi-modal queries.',
     impact: 'Sub-400ms retrieval across 50K+ files.',
     tech: ['FAISS', 'Gemini Embeddings', 'Electron', 'FastAPI'],
-    year: '2024',
+    year: '2026',
     repo: 'https://github.com/deepanmpc/SMART-SEARCH',
     link: 'https://deepanmpc.github.io/SMART-SEARCH'
   },
@@ -23,7 +23,7 @@ export const PROJECTS_DATA: Project[] = [
     solution: 'MCP server bridging Zomato ecosystem with AI CLIs like Gemini and Claude Code.',
     impact: 'Order food without leaving the terminal, maintaining maximum productivity.',
     tech: ['MCP', 'Zomato API', 'TypeScript', 'Node.js'],
-    year: '2026',
+    year: '2025',
     repo: 'https://github.com/deepanmpc/FoodForDevs',
     link: 'https://github.com/deepanmpc/FoodForDevs'
   },
@@ -36,7 +36,7 @@ export const PROJECTS_DATA: Project[] = [
     solution: 'Offline-capable AI system with speech pipelines, RAG memory, FSM-driven responses, and emotion modeling.',
     impact: 'Extends therapeutic reach with consistent, gentle, adaptive engagement that improves daily functioning and wellbeing.',
     tech: ['FastAPI', 'Docker', 'Faster-Whisper', 'RAG', 'Microservices'],
-    year: '2024',
+    year: '2026',
     repo: 'https://github.com/deepanmpc/LaRa'
   },
   {
@@ -48,7 +48,7 @@ export const PROJECTS_DATA: Project[] = [
     solution: 'Semantic matching with sentence embeddings and vector search.',
     impact: '50% reduction in recruiter screening time.',
     tech: ['Sentence Transformers', 'ChromaDB', 'Mistral', 'React'],
-    year: '2024',
+    year: '2026',
     repo: 'https://github.com/deepanmpc/ResumeAnalyse_RAG-Architecture'
   },
   {
@@ -223,7 +223,7 @@ export const ACHIEVEMENTS: Achievement[] = [
   { id: 'ach1', text: '3rd Place — RAMPAGE V26 National Hackathon (KLH)' },
   { id: 'ach2', text: 'Presented in prefinal round for NeuroDott to IEEE members' },
   { id: 'ach3', text: '3D Apparel Customizer delivered to local shirt manufacturer — increased sales by 8-10%' },
-  { id: 'ach4', text: 'Search Wizard: 8 stars, 2 forks, multiple downloads across macOS, Windows, Linux' }
+  { id: 'ach4', text: 'Search Wizard: 10 forks, multiple downloads across macOS, Windows, Linux' }
 ];
 
 export const CONTACT: ContactInfo = {
