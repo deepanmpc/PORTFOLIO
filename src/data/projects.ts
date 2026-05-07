@@ -89,18 +89,6 @@ export const PROJECTS_DATA: Project[] = [
     link: 'https://deepanmpc.github.io/LOVE_PREDICT_ML_MODEL/'
   },
   {
-    id: 'adversarial',
-    displayId: '008',
-    title: 'Adversarial Defense & Anti-Spoofing',
-    description: 'GPS spoofing detection and adversarial defense mechanisms for location-based systems.',
-    problem: 'Location-based services are vulnerable to GPS spoofing and adversarial attacks.',
-    solution: 'Implemented advanced detection algorithms to identify and mitigate GPS spoofing in real-time.',
-    impact: 'Award-winning project at Guidewire DEVTrails 2026 for enhancing system security.',
-    tech: ['Python', 'Security', 'Data Analysis'],
-    year: '2026',
-    repo: 'https://github.com/deepanmpc/adversarial-defense-anti-spoofing'
-  },
-  {
     id: 'career',
     displayId: 'OSS-01',
     title: 'career-ops',

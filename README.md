@@ -71,10 +71,6 @@ Pre-final year **CS + AI** engineer building **Anaavi** — a low-cost AI therap
     *   AI-powered relationship dynamic predictor using behavioral analytics and sentiment modeling.
     *   *Tech: ML, Python, Scikit-learn*
 
-*   **🛡️ [Adversarial Defense & Anti-Spoofing](https://github.com/deepanmpc/adversarial-defense-anti-spoofing)** (2026)
-    *   GPS spoofing detection (Guidewire DEVTrails 2026). Enhancing system security for location-based services.
-    *   *Tech: Python, Security, Data Analysis*
-
 ---
 
 ### **🏆 Notable Certifications**
