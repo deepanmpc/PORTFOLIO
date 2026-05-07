@@ -1,73 +1,68 @@
-# React + TypeScript + Vite
+# 🌌 SYS://PORTFOLIO — Deepan Chandrasekaran
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> **AI Engineer • LLM Researcher • Systems Architect**
 
-Currently, two official plugins are available:
+A high-fidelity, terminal-themed portfolio showcasing the interface between AI and human-centric engineering. Built with a focus on real-time systems, semantic search, and agentic architectures.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ⚡ TECH STACK
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend:** React 19, TypeScript, Vite
+- **Styling:** Vanilla CSS (Modular), Cyberpunk/HUD Aesthetic
+- **AI Integrations:** MCP (Model Context Protocol), RAG Pipelines, Vector Search
+- **Tools:** Three.js (3D Config), Faster-Whisper, FAISS, Docker
 
-## Expanding the ESLint configuration
+## 🚀 KEY PROJECTS
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### 001 — Search Wizard (2026)
+Multi-modal semantic search engine over 50K+ files with sub-400ms retrieval. Utilizes FAISS-indexed embeddings with Gemini for privacy-first, local search.
+- **Achievement:** 10+ Forks on GitHub.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### 002 — Food For Devs (2026)
+Terminal-native food ordering bridge for developers. An agentic MCP server bridging the Zomato ecosystem directly into CLI environments (Gemini, Claude Code).
+- **Link:** [Try Project](https://deepanmpc.github.io/FoodForDevs/)
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### 003 — NeuroDott (2025 — Present)
+Adaptive Robotic-AI therapy companion for neurodiverse individuals. Features an offline speech AI pipeline (Faster-Whisper + WebRTC VAD) and FSM-driven emotional regulation.
+- **Achievement:** 3rd Place — RAMPAGE V26 National Hackathon.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### 004 — ResumeAnalyse (2024)
+RAG-based semantic matching system for recruitment. Achieved 50% reduction in manual screening time through vector-based candidate ranking.
+
+---
+
+## 🛠️ GETTING STARTED
+
+### Prerequisites
+- Node.js (v18+)
+- npm or yarn
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/deepanmpc/PORTFOLIO.git
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+### Building for Production
+```bash
+npm run build
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🌐 CONNECT
+- **GitHub:** [@deepanmpc](https://github.com/deepanmpc)
+- **LinkedIn:** [Deepan Chandrasekaran](https://www.linkedin.com/in/deepanmpc/)
+- **Email:** 2300032731cse3@gmail.com
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+*Built with precision in the terminal.*
