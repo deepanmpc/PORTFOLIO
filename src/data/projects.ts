@@ -2,20 +2,8 @@ import type { Project, Stage } from '../types';
 
 export const PROJECTS_DATA: Project[] = [
   {
-    id: 'lar1a',
-    displayId: '001',
-    title: 'NeuroDott',
-    description: 'Low-Cost Adaptive Robotic-AI emotion-aware therapy companion for neurodiverse individuals. Built for children/young adults with autism, Down syndrome, ADHD, cerebral palsy, and for individuals with progressive neurological conditions like dementia, Parkinson’s, TBI. Provides structured, predictable, emotion-aware interaction between formal therapy sessions.',
-    problem: 'Professional therapy is costly, requires constant internet, and is not always available. Neurodiverse individuals need consistent, safe engagement.',
-    solution: 'Offline-capable AI system with speech pipelines, RAG memory, FSM-driven responses, and emotion modeling.',
-    impact: 'Extends therapeutic reach with consistent, gentle, adaptive engagement that improves daily functioning and wellbeing.',
-    tech: ['FastAPI', 'Docker', 'Faster-Whisper', 'RAG', 'Microservices'],
-    year: '2024',
-    repo: 'https://github.com/deepanmpc/LaRa'
-  },
-  {
     id: 'sea4rch',
-    displayId: '002',
+    displayId: '001',
     title: 'Search Wizard',
     description: 'Multi-modal semantic search engine over 50K+ files with sub-400ms retrieval.',
     problem: 'Finding files across large repositories takes too long.',
@@ -27,8 +15,33 @@ export const PROJECTS_DATA: Project[] = [
     link: 'https://deepanmpc.github.io/SMART-SEARCH'
   },
   {
-    id: 'res3ume',
+    id: 'food4devs',
+    displayId: '002',
+    title: 'Food For Devs',
+    description: 'Terminal-native food ordering bridge for developers to order meals directly from their IDE/Terminal via Zomato integration.',
+    problem: 'Switching to mobile apps to order food breaks developer flow state.',
+    solution: 'MCP server bridging Zomato ecosystem with AI CLIs like Gemini and Claude Code.',
+    impact: 'Order food without leaving the terminal, maintaining maximum productivity.',
+    tech: ['MCP', 'Zomato API', 'TypeScript', 'Node.js'],
+    year: '2026',
+    repo: 'https://github.com/deepanmpc/FoodForDevs',
+    link: 'https://github.com/deepanmpc/FoodForDevs'
+  },
+  {
+    id: 'lar1a',
     displayId: '003',
+    title: 'NeuroDott',
+    description: 'Low-Cost Adaptive Robotic-AI emotion-aware therapy companion for neurodiverse individuals. Built for children/young adults with autism, Down syndrome, ADHD, cerebral palsy, and for individuals with progressive neurological conditions like dementia, Parkinson’s, TBI. Provides structured, predictable, emotion-aware interaction between formal therapy sessions.',
+    problem: 'Professional therapy is costly, requires constant internet, and is not always available. Neurodiverse individuals need consistent, safe engagement.',
+    solution: 'Offline-capable AI system with speech pipelines, RAG memory, FSM-driven responses, and emotion modeling.',
+    impact: 'Extends therapeutic reach with consistent, gentle, adaptive engagement that improves daily functioning and wellbeing.',
+    tech: ['FastAPI', 'Docker', 'Faster-Whisper', 'RAG', 'Microservices'],
+    year: '2024',
+    repo: 'https://github.com/deepanmpc/LaRa'
+  },
+  {
+    id: 'res3ume',
+    displayId: '004',
     title: 'ResumeAnalyse',
     description: 'RAG-based semantic matching system reducing recruiter effort by 50%.',
     problem: 'Recruiters spend excessive time screening resumes manually.',
@@ -40,7 +53,7 @@ export const PROJECTS_DATA: Project[] = [
   },
   {
     id: 'sis2gn',
-    displayId: '004',
+    displayId: '005',
     title: 'SignSpeak AI',
     description: 'Real-time sign language recognition system with edge inference at 45 FPS.',
     problem: 'Communication barriers between hearing-impaired and general public.',
@@ -52,7 +65,7 @@ export const PROJECTS_DATA: Project[] = [
   },
   {
     id: 'app6arel',
-    displayId: '005',
+    displayId: '006',
     title: '3D Apparel Customizer',
     description: 'Full-stack platform with real-time 3D product preview.',
     problem: 'Customers cannot visualize custom apparel before purchase.',
@@ -64,7 +77,7 @@ export const PROJECTS_DATA: Project[] = [
   },
   {
     id: 'love1',
-    displayId: '006',
+    displayId: '007',
     title: 'LOVE PREDICT',
     description: 'Fun ML project for learning! Predicts relationship compatibility (for educational purposes only 😅)',
     problem: 'Curious about ML and relationship dynamics.',
@@ -189,7 +202,7 @@ export const CERTIFICATIONS: Certification[] = [
 
 export const SKILLS: Skill[] = [
   { id: '1', name: 'React', detail: 'Used to build interactive UIs for ResumeAnalyse and 3D configurator platforms. Learned component architecture, state flow, and performance optimization.', projects: ['ResumeAnalyse', '3D Apparel Customizer'] },
-  { id: '2', name: 'TypeScript', detail: 'Used across frontend systems to enforce type safety and scalability. Learned how strong typing reduces bugs and improves maintainability.', projects: ['ResumeAnalyse', '3D Apparel Customizer'] },
+  { id: '2', name: 'TypeScript', detail: 'Used across frontend systems to enforce type safety and scalability. Learned how strong typing reduces bugs and improves maintainability.', projects: ['ResumeAnalyse', '3D Apparel Customizer', 'Food For Devs'] },
   { id: '3', name: 'FastAPI', detail: 'Built backend services for RAG pipelines and real-time AI APIs. Learned async design and building low-latency, production-ready endpoints.', projects: ['NeuroDott', 'Search Wizard'] },
   { id: '4', name: 'PyTorch', detail: 'Used to train CNN models for SignSpeak AI and vision systems. Learned model optimization and handling real-time inference pipelines.', projects: ['SignSpeak AI'] },
   { id: '5', name: 'Computer Vision', detail: 'Applied in sign language detection and real-time gesture systems. Learned frame processing, model accuracy tuning, and latency trade-offs.', projects: ['SignSpeak AI'] },
@@ -199,10 +212,11 @@ export const SKILLS: Skill[] = [
   { id: '9', name: 'Docker', detail: 'Containerized AI services and microservices for deployment. Learned environment consistency and scalable service orchestration.', projects: ['NeuroDott'] },
   { id: '10', name: 'Microservices Architecture', detail: 'Designed modular backend systems for LaRa AI platform. Learned decoupling, communication patterns, and system scalability.', projects: ['NeuroDott'] },
   { id: '11', name: 'Three.js', detail: 'Built real-time 3D product visualization for apparel customization. Learned rendering pipelines and performance optimization in WebGL.', projects: ['3D Apparel Customizer'] },
-  { id: '12', name: 'Node.js', detail: 'Handled backend utilities and integration logic across systems. Learned event-driven architecture and API handling.', projects: ['NeuroDott', 'Search Wizard'] },
+  { id: '12', name: 'Node.js', detail: 'Handled backend utilities and integration logic across systems. Learned event-driven architecture and API handling.', projects: ['NeuroDott', 'Search Wizard', 'Food For Devs'] },
   { id: '13', name: 'Semantic Search', detail: 'Implemented multi-modal search engine over large datasets. Learned embedding-based retrieval and relevance ranking.', projects: ['ResumeAnalyse', 'Search Wizard'] },
   { id: '14', name: 'WebRTC / Streaming', detail: 'Used for real-time voice processing and low-latency communication. Learned stream handling and real-time system constraints.', projects: ['AI Therapy System'] },
-  { id: '15', name: 'LLM Integration', detail: 'Integrated LLMs into RAG pipelines and chatbot systems. Learned prompt control, response shaping, and system-level integration.', projects: ['ResumeAnalyse', 'AI Therapy System', 'NeuroDott'] }
+  { id: '15', name: 'LLM Integration', detail: 'Integrated LLMs into RAG pipelines and chatbot systems. Learned prompt control, response shaping, and system-level integration.', projects: ['ResumeAnalyse', 'AI Therapy System', 'NeuroDott', 'Food For Devs'] },
+  { id: '16', name: 'Model Context Protocol (MCP)', detail: 'Built servers to bridge external APIs (LinkedIn, Zomato) with LLM interfaces. Learned protocol standards and building extensible AI tools.', projects: ['Food For Devs', 'mcp-linkedin'] }
 ];
 
 export const ACHIEVEMENTS: Achievement[] = [
