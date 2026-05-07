@@ -25,7 +25,7 @@ export const PROJECTS_DATA: Project[] = [
     tech: ['MCP', 'Zomato API', 'TypeScript', 'Node.js'],
     year: '2025',
     repo: 'https://github.com/deepanmpc/FoodForDevs',
-    link: 'https://github.com/deepanmpc/FoodForDevs'
+    link: 'https://deepanmpc.github.io/FoodForDevs/'
   },
   {
     id: 'lar1a',
